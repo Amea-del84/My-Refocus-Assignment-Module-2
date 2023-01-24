@@ -1,0 +1,52 @@
+.mobile-device{
+    display: block;
+    color: rgb(39, 136, 136);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+.tablet {
+    display: none;
+}
+
+.PC {
+    display: none;
+}
+/* or use this instead for shorthand?? */
+/* .tablet, .PC {
+    display: none;
+} */
+
+
+@media only screen and (min-width: 450px) {
+    .tablet {
+        display: inline-block;
+        font-size: 45px;
+        font-weight: bold;
+        font-style: oblique;
+        color: rgb(171, 196, 69);
+    }
+
+    .mobile-device, .PC {
+        display: none;
+    }
+    /* so, its ok to use shorthand!! */
+}
+
+@media screen and (min-width: 1024px) {
+    .PC {
+        display: inline-block;
+        color: rgb(149, 31, 66);
+        font-size: 50px;
+        font-family: fantasy;
+    }
+    .mobile-device {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+
