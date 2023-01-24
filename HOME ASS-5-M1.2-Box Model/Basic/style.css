@@ -1,0 +1,15 @@
+.red {
+    color: red;
+    padding-right: 38px;    
+}
+
+h1 {
+    margin-bottom: 14px;
+}
+
+#outlined-box {
+    border: 1px solid gray;
+    padding: 16px;
+    height: 400px;
+    width: 400;
+}

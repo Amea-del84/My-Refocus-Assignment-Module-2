@@ -1,0 +1,23 @@
+* {
+    color: blue;
+}
+
+.containter-1 {
+    color: yellowgreen;
+}
+
+.blue {
+    color: purple;
+}
+
+.red {
+    color: pink;
+}
+
+section p {
+    color: pink;
+}
+
+* {
+    color: gray;
+}
